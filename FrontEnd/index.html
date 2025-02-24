@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Funcionários</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciamento de Funcionários</h1>
+        
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Buscar funcionário...">
+            <select id="searchType">
+                <option value="name">Nome</option>
+                <option value="cargo">Cargo</option>
+                <option value="cpf">CPF</option>
+                <option value="salario">Salário</option>
+            </select>
+            <button id="searchButton">Buscar</button>
+        </div>
+
+        <div class="form-container">
+            <h2>Cadastrar Funcionário</h2>
+            <form id="employeeForm">
+                <input type="text" id="name" placeholder="Nome" required>
+                <input type="text" id="cargo" placeholder="Cargo" required>
+                <input type="text" id="cpf" placeholder="CPF" required>
+                <input type="number" id="salario" placeholder="Salário" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Cargo</th>
+                        <th>CPF</th>
+                        <th>Salário</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="employeeList"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
