@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\victo\\www\\Trabalho_web\\Funcionarios\\Funcionarios.csproj": {}
+    "C:\\Users\\marcos.vinicius\\Desktop\\Trabalho-web\\Funcionarios\\Funcionarios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\victo\\www\\Trabalho_web\\Funcionarios\\Funcionarios.csproj": {
+    "C:\\Users\\marcos.vinicius\\Desktop\\Trabalho-web\\Funcionarios\\Funcionarios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victo\\www\\Trabalho_web\\Funcionarios\\Funcionarios.csproj",
+        "projectUniqueName": "C:\\Users\\marcos.vinicius\\Desktop\\Trabalho-web\\Funcionarios\\Funcionarios.csproj",
         "projectName": "Funcionarios",
-        "projectPath": "C:\\Users\\victo\\www\\Trabalho_web\\Funcionarios\\Funcionarios.csproj",
-        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victo\\www\\Trabalho_web\\Funcionarios\\obj\\",
+        "projectPath": "C:\\Users\\marcos.vinicius\\Desktop\\Trabalho-web\\Funcionarios\\Funcionarios.csproj",
+        "packagesPath": "C:\\Users\\marcos.vinicius\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marcos.vinicius\\Desktop\\Trabalho-web\\Funcionarios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\marcos.vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
